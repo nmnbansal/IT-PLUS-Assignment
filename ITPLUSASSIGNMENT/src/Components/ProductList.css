@@ -1,0 +1,38 @@
+.product-list-container {
+    margin: 20px;
+  }
+  
+  .filters-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input, .category-select {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .product-title {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .product-category, .product-price, .product-description {
+    margin: 5px 0;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 100px;
+  }
+  
